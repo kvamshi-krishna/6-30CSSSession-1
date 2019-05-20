@@ -1,0 +1,23 @@
+Div:
+------
+	Divide html body into horizontal blocks
+syntax:
+	<div>
+		Any Data
+	</div>
+Ex:
+	<div>
+		Welcome to Div
+	</div>
+
+Span:
+------
+	Divide html body into vertical blocks with in line
+syntax:
+	<span>
+		Any Data
+	</span>
+Ex:
+	<span>
+		Welcome to Span
+	<span>
