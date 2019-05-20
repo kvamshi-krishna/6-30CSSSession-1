@@ -1,5 +1,7 @@
 GIT:
+
 ==
+
 Git is an indispensable part of modern software development. 
 It is a version control system which can be thought of as an extremely powerful version of track changes 
 in Your Project .
