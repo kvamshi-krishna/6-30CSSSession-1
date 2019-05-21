@@ -1,0 +1,52 @@
+Input types:
+==========
+<input type="image" src="">					
+<input type="hidden">						
+<input type="time">			
+ <input type="week">			
+<input type="search">		
+<input type="month">			
+<input type="datetime-local">
+<input type="color">
+Media Tags:
+==========
+<audio>
+-----------
+	<audio controls="controls" src="aud1.mp3">    </audio>
+<video>
+------------
+	 <video width="320" height="240" controls>
+    			<source src="vid1.mp4" type="video/mp4">
+     	</video>
+Tags:
+====
+1.<header>
+2.<footer>
+3.<nav>
+4.<address>
+5.<figure>
+6.<figure-caption>
+7.<section>
+8.<aside>
+9.<article>
+10.<main>
+11.<code>
+12.<abbr>
+13.<mark>
+14.<summary>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
