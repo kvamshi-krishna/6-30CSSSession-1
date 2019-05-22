@@ -1,0 +1,75 @@
+JavaScript:
+=========
+	Designed by: 	Brendan Eich in 1995
+
+1.It is scripting language like Jscript,VbScript,Pythonscript,etc...
+2.Basic usages of JavaScript is
+	1.To do Client Side Validations
+	2.To do Html & Css (DOM) manipulations
+3.This language code is prepared in JAVA language, So user must have basics in CoreJava
+4.Silimial to C language ,JavaScript have language fundmentals like
+	1.Input & Output functions
+	2.Datatypes
+	3.Operators
+	4.Control Statements
+	5.Functions
+5.Scope/Areas where we can use JS:
+	1.Jquery
+	2.Ajax
+	3.Bootstrap
+	4.Angular Js
+	5.Angular
+	6.MongoDb
+	7.Express Js
+	8.NodeJs
+	9.VueJs
+	10.TypeScript(Adv of JS)
+	...
+6.How JS run on browser:
+	Javascript run on browsers using different engines & respective to browser companies.
+
+	Browser			JS Engine
+	------------			-------------
+	1.Google Chrome		V8 engine
+	2.Mozilla FireFox		SpiderMonkey
+	3.InternetExplorer		Chakra
+	4.Microsoft Edge		Chakra
+	............
+________________________________________________________________________________
+JS introduction:
+-----------------------
+Note:
+	We can prepare JS code  inside html pag using <script> tag.
+Syntax:
+	<script>
+		//Js Code
+	</script>
+
+1.Input & Output functions:
+=======================
+
+	1.Input function	:	prompt()
+
+	2.Output function	:	1.alert()
+				2.confirm()
+				3.document.write()
+				4.console.log()
+
+Example1:refer demo1.html
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
