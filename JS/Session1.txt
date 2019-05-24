@@ -45,18 +45,138 @@ Syntax:
 		//Js Code
 	</script>
 
-1.Input & Output functions:
-=======================
+Chapter 1.Input & Output functions:
+==============================
 
 	1.Input function	:	prompt()
 
-	2.Output function	:	1.alert()
-				2.confirm()
-				3.document.write()
-				4.console.log()
+	2.Output function	:	1.alert()		:print errors on browser
+				2.confirm()	:print confirm box
+				3.document.write():print data on browser body
+				4.console.log()	:print data on browser background
 
 Example1:refer demo1.html
+____________________________________________________________
+
+
+Working with Visual Studio Code:
+------------------------------------------------
+1.This software developed by Microsoft
+2.This software we used to prepare following UI technologies source code
+
+1.Html
+2.CSS
+3.JS
+4.Bootstrap
+5.Jquery
+6.Ajax
+7.Angular JS
+8.Angular 
+9.Type Script
+
+3.Dowload latest VSC from https://code.visualstudio.com/ site & install it.
+4.Create a folder for ur applications
+5.After  installation, Open VSC shortcut from desktop
+6.File->Open folder->Browse ur folder which is created in step 4
+7.Clcik (+) button to create a file & prepare ur code
 	
+____________________________________________________________
+Comments in JS:
+------------------------
+1.Single line comments	:	//comment1
+2.Multi line comments	:	/*
+					comment1
+					comment2
+					...
+				*/
+Adv:
+----
+	1.readabilty
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Chapter 2.Datatypes:
+==================
+In JS we have 2 types of datatypes
+	1.Primitive datatypes
+	2.Non-Primitive datatypes
+
+1.Primitive datatypes:
+-------------------------------
+	They can store single value
+
+	1.number
+	2.boolean
+	3.string
+	4.undefined
+	5.null
+
+2.Non-Primitive datatypes
+--------------------------------------
+	They can store multi values
+	
+	1.Arrays
+	2.Objects
+
+Note:
+-------
+	All Primitives  & Non-Primitives datatypes are declared by using "var" keyword.
+syntax:
+	var	variablename=value;
+Ex:
+	//Primitives
+	var	a=501;		//	a 	is	number	type
+	var	b=9.8;		//	b 	is	number	type
+	var	c='Apple';	//	c 	is	string	type
+	var	d="Apple";	//	d 	is	string	type
+	var	e=null;		//	e 	is	null	type
+	var	f;		//	f 	is	undefined	type
+	var	g=true;		//	g	is 	boolean type
+	//Non-Primitives
+	var	h=[10,'Apple',true];		//	h	is	array	type
+	var	i={'id':101,'name':'chanti'};		//	i	is	object	type
+	
+
+typeof()  function:
+--------------------------
+	This function return the type variable	
+:refer demo1.html app
+
+PS1:addition of 2 numbers
+
+	concludes prompt() & eval() functions
+:refer demo2.html app
+__________________________________________________________________
+
+Chapter 3.Operators:
+=================
+Operators are used to perform a specific operation
+Operators are used between operands
+Ex:
+	c=a+b
+	
+Here	a,b,c	are 	operands
+Here	=,+	are	operators
+
+Types of operators:(Unary(a++),Binary(a+b),Ternary(a?b:c))
+================
+1.Unary Operators
+	->Increment(++)& decrement(--)
+	->Minus(-)
+2.Binary Operators
+	->Assignment(=)
+	->Arithmetic(+,-,*,/,%)
+	->Relational(<,>,<=,>=,==,!=,===)
+	->Logical(&&,||,!)
+	->Bitwise(&,|,^,~,<<,>>)
+3.Ternary Operators
+	->Conditional(?,:)
+
+			
+Refers pics for program
+
+
+
+
 
 
 
