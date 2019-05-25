@@ -1,0 +1,156 @@
+Logical Operators:(&&,||,!)
+===============
+These Operators used between two conditions
+
+			     and		     or		not		
+	C1	C2	C1&&C2		C1||C2		!C1
+	---	---	-----------		-----------		-----
+	T	T	T		T		F
+	T	F	F		T		F
+	F	T	F		T		T
+	F	F	F		F		T
+
+demo4.html
+
+Bitwise operators:(&,|,^,~,<<,>>)
+================
+
+		     	and		     or		xor		
+	B1	B2	B1&B2		B1|B2		B1^B2
+	---	---	-----------		-----------		-----
+	1	1	1		1		0
+	1	0	0		1		1
+	0	1	0		1		1
+	0	0	0		0		0
+
+	a=15	=>	0	1	1	1	1
+	b=16	=>	1	0	0	0	0
+	__________________________________________________
+	a&b	=>	0	0	0	0	0	=>0
+	a|b	=>	1	1	1	1	1	=>31
+	a^b	=>	1	1	1	1	1	=>31
+	
+demo5.html
+
+3.Ternary:
+=========
+1.Conditional Operators:(?,:)
+=====================
+->These operators are used between 1 condtion & 2 statements
+->If condition is true then statement1 is returned
+->If condition is false then statement2 is returned
+syntax:
+	condition		?	statement1	:	statement2
+
+
+demo6.html
+______________________________________________________________________________
+
+			Control	Statements
+			------------------------------
+
+1.Decision Making statements	2.Loop	statements	3.Jump Statements
+------------------------------------------	-----------------------------	-----------------------------
+	1.if				1.while			1.break
+	2.if-else				2.do-while		2.continue
+	3.nested-if-else			3.for
+	4.switch
+
+
+4.switch:
+========
+demo7.html
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2.Loop	statements:
+==================
+Loop is a iteration process in which set of statements are executed repeatedly until given condition
+fails
+
+We have 3 types of loops
+	1.while	
+	2.do-while
+	3.for
+
+All loops are prepared with common following 4 aspects.
+
+1.Loop Begining point	{Initialization}
+2.Loop Ending point	{condition}
+3.Loop statements
+4.Increment/Decrement
+
+		1 to 10		10 to 1	0,2,4,...20	9,7,5,3,1
+
+Initialization	i=1		i=10	i=0		i=9
+condition		i<=10		i>=1	i<=20		i>=1
+statement	print 'i'		print 'i'	print 'i'		print 'i'
+Inc/Dec		i++		i--	i=i+2		i=i-2
+
+1.while:
+=======
+syntax:
+	Initialization
+	while(condition)
+	{
+		statement
+		Inc/Dec
+	}
+ex1: print  3,6,9,...30
+
+	var	i=3
+	while(i<=30)
+	{
+		console.log(i)
+		i=i+3
+	}
+
+ex2:try 		1 to 10		10 to 1		0,2,4,...20	9,7,5,3,1
+
+
+
+
+
+
+2.do-while:
+==========
+syntax:
+	Initialization
+	do
+	{
+		statement
+		Inc/Dec
+	}while(condition);
+
+ex1: print  3,6,9,...30
+
+	var	i=3
+	do
+	{
+		console.log(i)
+		i=i+3
+	}while(i<=30);
+
+ex2:try 		1 to 10		10 to 1		0,2,4,...20	9,7,5,3,1
+
+Difference between while & do while:
+-----------------------------------------------------
+refer demo10.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

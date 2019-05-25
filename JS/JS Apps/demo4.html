@@ -1,0 +1,51 @@
+<html>
+<body>
+    <script>
+        //Program for Logical Operators
+        var t,h,e;
+        t=88;
+        h=57;
+        e=82;
+        var total=t+h+e;
+        var per=total*100/300;
+        console.log('Total='+total)
+        console.log('Percentage='+per)
+        if(per>70)
+        {
+            console.log('Grade=A')
+        }
+        //Logical and
+        else if(per<70 && per>60)
+        {
+            console.log('Grade=B')
+        }
+        else if(per<60 && per>50)
+        {
+            console.log('Grade=C')
+        }
+        else
+        {
+            console.log('Grade=D')
+        }
+          //Logical or
+        if(t<35 || h<35 || e<35)
+        {
+            console.log('Result=Fail')
+        }
+        else
+        {
+            console.log('Result=Pass')
+        }
+        //Logical not
+        var age=10
+        if(!(age>18))
+        {
+            console.log('Invalid age for voting')
+        }
+        else
+        {
+            console.log('Valid age for voting')
+        }
+    </script>
+</body>
+</html>
