@@ -1,0 +1,154 @@
+for loop:
+=======
+syntax:
+	for(initialization	;	condition		;	inc/dec)
+	{
+		statements
+	}
+ex1:print 1 to	10
+
+	for(var	i=1	;	i<=10		;	i++)
+	{
+		console.log(i);
+	}
+ex2:print 20,19,18,...10
+
+	for(var	i=20	;	i>=10		;	i--)
+	{
+		console.log(i);
+	}
+
+ex3:print 0,2,4,6,8,10
+
+	for(var	i=0	;	i<=10	;	i=i+2)
+	{
+		console.log(i);
+	}
+
+ex4:print 3,6,9,...30
+
+	for(var	i=3	;	i<=30	;	i=i+3)
+	{
+		console.log(i);
+	}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Jump Statements:(demo11.html)
+===============
+1.break		:
+	Whenever program reach to break statement,loop execution terminated completely
+2.continue	:
+	Whenever program reach to continue statement,loop execution terminated only once
+
+ex1:	break
+
+	for(var	i=1	;	i<=10		;	i++)
+	{
+		if(i==5)
+		{
+			break;
+		}
+		else
+		{
+			console.log(i);
+		}
+	}
+
+//1	2	3	4	
+
+ex2:	continue
+
+	for(var	i=1	;	i<=10		;	i++)
+	{
+		if(i==5)
+		{
+			continue;
+		}
+		else
+		{
+			console.log(i);
+		}
+	}
+//1	2	3	4	6	7	8	9	10
+
+______________________________________________________________________
+
+	Non-Functional Program	 Vs 	Functional Program 
+	-----------------------------------		----------------------------
+	Program				Program
+
+	demo12.html			demo13.html
+
+	1.Duplication of code		1.No Duplication of code
+   	2.More space & time complexcity	2.Less space & time complexcity
+   	3.No readability			3.Have readability
+   	4.Extensility is too complex		4.Extensility is too easy
+   	5.No Modularity 			5.Have Modularity 			
+
+
+Function:
+========
+	It is set of instructions to perform a specific action
+	In JS,function can be prepared by using "function" keyword
+
+ CALLED FUNCTION		:	What	u want to do by function
+-----------------------------
+syntax:
+	function		NameOfFunction(Parameter List)
+	{
+		//body
+
+		return	value;
+	}	
+ CALLING FUNCTION	:	Usage of  CALLED FUNCTION	
+-----------------------------
+syntax:
+	NameOfFunction(Parameter List);
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Types of JavaScript:
+=================
+1.Internal JavaScript
+2.External JavaScript
+
+1.Internal JavaScript:
+------------------------------
+	Here Html code & JavaScript code is combined
+	JavaScript code is prepared inside html code using <script> tag
+Sample Code:
+	demo14.html
+
+
+2.External JavaScript:
+------------------------------
+	Here Html code & JavaScript code is separated
+	JavaScript code is prepared outside html page 
+	JavaScript code file extension is .js
+	This .js file accessed by using <script> tag & it should be inside <head> tag only
+syntax:
+	<html>
+	<head>
+		<script	src="ExternalJsFileName.js">	</script>
+	</head>
+	</html>
+
+Sample Code:
+	one.js
+	demo15.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
