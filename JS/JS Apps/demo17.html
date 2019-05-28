@@ -1,0 +1,24 @@
+<html>
+<body>
+<script>
+   var v1=10         //Global Variable
+
+   function fun1()
+   {
+      var v2=20      //Local Variable
+      document.write("<h1>Inside fun1()</h1>")
+      document.write("<p>v1="+v1+" v2="+v2+"</p>")
+      //document.write("<p>v3="+v3+"</p>")
+   }
+   function fun2()
+   {
+      var v3=30      //Local Variable
+      document.write("<h1>Inside fun2()</h1>")
+      document.write("<p>v1="+v1+" v3="+v3+"</p>")
+      //document.write("<p>v2="+v2+"</p>")
+   }
+   fun1()
+   fun2()
+</script>
+</body>
+</html>

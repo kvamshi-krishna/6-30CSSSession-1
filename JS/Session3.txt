@@ -139,6 +139,28 @@ Sample Code:
 	one.js
 	demo15.html
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Function Preparation Types:
+========================
+In JS any function  can be prepared in 4 ways
+1.With parameter list & with return value
+2.Without parameter list & without return value
+3.With parameter list & with out return value
+4.With out parameter list & with return value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

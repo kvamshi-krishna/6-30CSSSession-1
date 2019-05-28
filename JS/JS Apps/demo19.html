@@ -1,0 +1,17 @@
+<html>
+<body>
+<script>
+   function cube(n)        //Outer function
+   {
+      function square(p)   //Inner function
+      {
+         return (p*p)
+      }
+      return n*square(n)
+   }
+  document.write(cube(10)+"<br>")
+  document.write(cube(20)+"<br>")
+  document.write(cube(30)+"<br>")
+</script>
+</body>
+</html>

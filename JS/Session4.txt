@@ -1,0 +1,112 @@
+Function Preparation Types:
+========================
+In JS any function  can be prepared in 4 ways
+
+parameter list	=>Input list of the functioon
+return value	=>Output of the function
+
+
+1.With parameter list & with return value
+2.Without parameter list & without return value
+3.With parameter list & with out return value
+4.With out parameter list & with return value
+
+Refer:demo16.html
+
+Task1:Cube of a number solve in 4 ways
+Task2:Avg of 3 numbers solve in 4 ways
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Function Parameter Types:
+======================
+1.Formal Parameters:	Parameters present inside Called Function(a,b)
+2.Actual Paramaters:	Parameters present inside Calling Function(p,q)
+
+Sample Code:
+<script>
+
+	function 		sum(a,b)			//Called Function
+	{
+   		document.write("Sum is:"+(a+b))
+	}
+
+	var	p=45
+	var	q=55
+	sum(p,q)					//Calling Function
+
+</script>
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Variable Types:
+=============
+1.Global Variable	:Declared outside all functions
+		Scope of this variable is all functions
+
+2.Local Variable	:Declared inside function
+		Scope of this variable with in function only
+
+Refer:demo17.html
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nested Functions:
+-------------------------
+Preparinf a function inside another function is called as Nested Functions
+
+Representation:
+----------------------
+	function		myfun1()			//Outer function
+	{
+		//statements of myfun1() 
+
+		function		myfun2()		//Inner function
+		{
+			//statements of myfun2() 
+
+		}
+	}
+
+Code:
+	Refer:demo18.html
+	Refer:demo19.html
+
+Closure/Scope inside Nested Functions:
+=================================
+Code:
+	Refer:demo20.html
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Recursion:
+=========
+	A function Calling itself is called as Recursion
+Representation:
+----------------------
+	function		myfun1()		//Called Function	
+	{
+		//statement1
+		//statement2
+		//statement3
+		//statement4
+		myfun1()		//Calling Function	itself
+	}
+
+	myfun1()				//Calling Function	
+	
+
+
+Code:
+	Refer:demo21.html	=>Without recursion
+	Refer:demo22.html	=>With recursion
+
+
+
+
+
+
+
+
+
+
+

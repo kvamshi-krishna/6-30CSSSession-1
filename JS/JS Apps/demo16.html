@@ -1,0 +1,35 @@
+<html>
+<body>
+<script>
+//1.With parameter list & with return value
+function sum1(a,b)
+{
+   return (a+b);
+}
+//2.Without parameter list & without return value
+function sum2()
+{
+   var a=2,b=22;
+   document.write("Sum2 is:"+(a+b)+"<hr>")
+}
+//3.With parameter list & with out return value
+function sum3(a,b)
+{
+   document.write("Sum3 is:"+(a+b)+"<hr>")
+}
+//4.With out parameter list & with return value
+function sum4()
+{
+   var a=4,b=44
+   return (a+b)
+}
+//Calling Functions
+var t1=sum1(1,11)
+document.write("Sum1 is:"+(t1)+"<hr>")
+sum2()
+sum3(3,33)
+var t2=sum4()
+document.write("Sum4 is:"+(t2)+"<hr>")
+</script>
+</body>
+</html>
