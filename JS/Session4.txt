@@ -2,7 +2,7 @@ Function Preparation Types:
 ========================
 In JS any function  can be prepared in 4 ways
 
-parameter list	=>Input list of the functioon
+parameter list	=>Input list of the function
 return value	=>Output of the function
 
 
